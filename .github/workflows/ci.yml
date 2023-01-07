@@ -54,3 +54,4 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: pbarker
           directory: public
+          branch: ${{ github.ref_name }}
