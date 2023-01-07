@@ -1,0 +1,66 @@
+<!--
+Copyright (c) 2020 Paul Barker <paul@pbarker.dev>
+SPDX-License-Identifier: Apache-2.0
+-->
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} - {{ article.title }}{% endblock %}
+{% block head %}
+    <meta name="twitter:card" content="summary" />
+    <meta property="og:title" content="{{ article.title|striptags|escape }}" />
+    <meta property="og:description" content="{{ article.summary|striptags|escape }}" />
+    <meta property="og:image" content="https://pbarker.dev/images/pbarker.jpg" />
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="https://pbarker.dev/" />
+    <meta property="article:published_time" content="{{ article.date.isoformat() }}" />
+    {% for tag in article.tags %}
+    <meta property="article:tag" content="{{ tag }}" />
+    {% endfor %}
+{% endblock head %}
+{% block content %}
+<div class="row mt-4">
+    <div class="col-md-12">
+        <h1 class="post-title">
+            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
+                {{ article.title }}
+            </a>
+        </h1>
+    </div>
+</div>
+<div class="row mb-4">
+    <div class="col-md-2">
+    </div>
+    <div class="col-md-8 page-content">
+        <div>
+            <p class="post-meta">
+                Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time> <br />
+                Tags: {{ article.tags|join(', ') }}<br />
+                <a href="{{ SITEURL }}/{{ article.url }}">Permalink</a>
+            </p>
+        </div>
+        <div>
+            <div class="lead py-2">
+                {{ article.summary }}
+            </div>
+            <div class="py-2">
+                {{ article.content }}
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2">
+    </div>
+</div>
+<div class="row my-4">
+    <div class="col-md-12">
+        {% if article.prev_article %}
+        <div class="float-left">
+            <a href="{{ SITEURL }}/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>
+        </div>
+        {% endif %}
+        {% if article.next_article %}
+        <div class="float-right">
+            <a href="{{ SITEURL }}/{{ article.next_article.url }}">{{ article.next_article.title }} &gt;&gt;</a>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock content %}

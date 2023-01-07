@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+Copyright (c) 2020 Paul Barker <paul@pbarker.dev>
+SPDX-License-Identifier: Apache-2.0
+-->
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}"
+      prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article# profile: https://ogp.me/ns/profile">
+  <head>
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    <meta charset="utf-8" />
+    <meta name="generator" content="Pelican" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/local.css">
+    <link rel="stylesheet" type="text/css" href="/css/youtube.css">
+    {% block head %}
+    {% endblock head %}
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">{{ SITENAME }}</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    {% for title, link in MENUITEMS %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ link }}">{{ title }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        {% block content %}
+        {% endblock content %}
+    </div>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p class="footer-msg">
+                        Copyright © {{ COPYRIGHT_YEAR }} {{ AUTHOR }} <br />
+                        Content may be re-used for non-commercial purposes under the <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a> license except as otherwise noted.<br />
+                        Source code samples are made available under the <a href="https://opensource.org/licenses/Apache-2.0">Apache 2.0</a> license.<br />
+                        Created with <a href="https://getpelican.com/">Pelican</a> {{ PELICAN_VERSION }} and <a href="https://getbootstrap.com/">Bootstrap</a> 4.5.0.
+                    </p>
+                </div>
+                <div class="col-lg-4">
+                    <p class="footer-msg text-right">
+                        Spotted a problem or got feedback? <br />
+                        Please let me know via the <a href="https://github.com/unnecessary-abstraction/pbarker.dev/issues">issue tracker</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  </body>
+</html>
