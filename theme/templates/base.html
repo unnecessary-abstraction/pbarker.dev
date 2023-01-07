@@ -14,12 +14,19 @@ SPDX-License-Identifier: Apache-2.0
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/css/local.css">
     <link rel="stylesheet" type="text/css" href="/css/youtube.css">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-darkmode@0.9.1/css/darktheme.css"/>
     {% block head %}
     {% endblock head %}
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <script src="https://unpkg.com/bootstrap-darkmode@0.9.1/bundles/bootstrap-darkmode.umd.js"></script>
+    <script>
+        const BootstrapDarkmode = window['bootstrap-darkmode'];
+        const themeConfig = new BootstrapDarkmode.ThemeConfig();
+        themeConfig.initTheme();
+    </script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-darkmode-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/">{{ SITENAME }}</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,6 +41,9 @@ SPDX-License-Identifier: Apache-2.0
                     {% endfor %}
                 </ul>
             </div>
+            <script>
+                BootstrapDarkmode.writeDarkSwitch(themeConfig);
+            </script>
         </div>
     </nav>
 
