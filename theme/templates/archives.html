@@ -11,7 +11,7 @@ SPDX-License-Identifier: Apache-2.0
     <div class="col-md-8 page-content">
         <div>
             <h1 class="post-title">
-                <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}" rel="bookmark" title="Permalink to the archives">
+                <a href="/{{ ARCHIVES_URL }}">
                     Archives
                 </a>
             </h1>
@@ -22,7 +22,7 @@ SPDX-License-Identifier: Apache-2.0
                 {% for article in dates %}
                     <tr>
                     <td class="py-1 px-1">{{ article.date.strftime("%Y-%m-%d") }}</td>
-                    <td class="py-1 px-1"><a href='{{ SITEURL }}/{{ article.url }}'>{{ article.title }}</a></td>
+                    <td class="py-1 px-1"><a href='/{{ article.url }}'>{{ article.title }}</a></td>
                     </tr>
                 {% endfor %}
                 </tbody>

@@ -24,7 +24,7 @@ SPDX-License-Identifier: Apache-2.0
 </div>
 <div class="row my-4">
     <div class="col-md-6">
-        <img class="rounded mx-auto d-block" src="{{ SITEURL }}/images/pbarker.jpg" />
+        <img class="rounded mx-auto d-block" src="/images/pbarker.jpg" />
     </div>
     <div class="col-md-6">
         <h2>About Paul</h2>
@@ -43,7 +43,7 @@ SPDX-License-Identifier: Apache-2.0
         <hr />
         {% for article in articles_page.object_list %}
         <div class="ml-2 mr-4">
-            <h3 class="post-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h3>
+            <h3 class="post-title"><a href="/{{ article.url }}">{{ article.title }}</a></h3>
             <p class="post-meta">
                 Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time><br />
                 Tags: {{ article.tags|join(', ') }}
@@ -51,12 +51,12 @@ SPDX-License-Identifier: Apache-2.0
             <div class="post-summary">
                 {{ article.summary }}
             </div>
-            <p><a href="{{ SITEURL }}/{{ article.url }}">Read more</a></p>
+            <p><a href="/{{ article.url }}">Read more</a></p>
         </div>
         <hr />
         {% endfor %}
         <div class="float-right">
-            <a href="{{ SITEURL }}/{{ ARCHIVES_URL }}">Archives</a>
+            <a href="/{{ ARCHIVES_URL }}">Archives</a>
         </div>
     </div>
 </div>

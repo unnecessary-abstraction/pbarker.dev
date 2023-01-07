@@ -20,9 +20,7 @@ SPDX-License-Identifier: Apache-2.0
 <div class="row mt-4">
     <div class="col-md-12">
         <h1 class="post-title">
-            <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
-                {{ article.title }}
-            </a>
+            {{ article.title }}
         </h1>
     </div>
 </div>
@@ -30,21 +28,23 @@ SPDX-License-Identifier: Apache-2.0
     <div class="col-md-2">
     </div>
     <div class="col-md-8 page-content">
-        <div>
-            <p class="post-meta">
-                Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time> <br />
-                Tags: {{ article.tags|join(', ') }}<br />
-                <a href="{{ SITEURL }}/{{ article.url }}">Permalink</a>
-            </p>
-        </div>
-        <div>
-            <div class="lead py-2">
-                {{ article.summary }}
+        <article>
+            <div>
+                <p class="post-meta">
+                    Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time> <br />
+                    Tags: {{ article.tags|join(', ') }}<br />
+                    <a href="{{ SITEURL }}/{{ article.url }} rel="bookmark" title="Permalink to {{ article.title|striptags }}"">Permalink</a>
+                </p>
             </div>
-            <div class="py-2">
-                {{ article.content }}
+            <div>
+                <div class="lead py-2">
+                    {{ article.summary }}
+                </div>
+                <div class="py-2">
+                    {{ article.content }}
+                </div>
             </div>
-        </div>
+        </article>
     </div>
     <div class="col-md-2">
     </div>
@@ -53,12 +53,12 @@ SPDX-License-Identifier: Apache-2.0
     <div class="col-md-12">
         {% if article.prev_article %}
         <div class="float-left">
-            <a href="{{ SITEURL }}/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>
+            <a href="/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>
         </div>
         {% endif %}
         {% if article.next_article %}
         <div class="float-right">
-            <a href="{{ SITEURL }}/{{ article.next_article.url }}">{{ article.next_article.title }} &gt;&gt;</a>
+            <a href="/{{ article.next_article.url }}">{{ article.next_article.title }} &gt;&gt;</a>
         </div>
         {% endif %}
     </div>
