@@ -1,5 +1,5 @@
 ..
-   Copyright (c) 2021 Paul Barker <paul@pbarker.dev>
+   Copyright (c) 2023 Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
 Content Licensing
@@ -7,9 +7,10 @@ Content Licensing
 
 :date: 2023-02-07
 :tags: open-source, open-culture, writing, photography
-:summary: For my photography and writing I'm now using the Creative Commons
-          Attribution-NonCommercial license. I'll continue to release software
-          under open source licenses.
+:summary: For my photography and writing I'm now using the
+          `Creative Commons Attribution-NonCommercial 4.0 (CC-BY-NC 4.0)
+          <https://creativecommons.org/licenses/by-nc/4.0/>`_ license. I'll
+          continue to release software under open source licenses.
 
 At the start of 2023 I had a bit of a re-think on how I should license the
 writing and photographs which I publish to the internet.
