@@ -11,6 +11,10 @@ Goals and Rationale
     are the initial goals: to act as a landing page and to allow me to keep a
     professional blog.
 
+This website may evolve in other directions in the future but these are the
+initial goals: to act as a landing page and to allow me to keep a professional
+blog.
+
 A landing page
 --------------
 

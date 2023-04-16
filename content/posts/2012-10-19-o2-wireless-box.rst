@@ -10,6 +10,9 @@ Lobotomising an O2 Wireless Box IV
 :summary: This is a resurrection of a post from my old personal website. The
           info here is long out of date, but I don't like information to die.
 
+This is a resurrection of a post from my old personal website. The info here is
+long out of date, but I don't like information to die.
+
 Introduction
 ------------
 

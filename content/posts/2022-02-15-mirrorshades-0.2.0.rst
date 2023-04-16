@@ -11,6 +11,10 @@ New release: mirrorshades v0.2.0
           `mirrorshades <https://pypi.org/project/mirrorshades/>`_,
           a tool for mirroring data from remote sources, has been released.
 
+I'm happy to announce that version 0.2.0 of `mirrorshades
+<https://pypi.org/project/mirrorshades/>`_, a tool for mirroring data from
+remote sources, has been released.
+
 This release can be downloaded from
 `PyPI <https://pypi.org/project/mirrorshades/0.2.0/>`_ or
 `GitHub <https://github.com/unnecessary-abstraction/mirrorshades/releases/tag/v0.2.0>`_.

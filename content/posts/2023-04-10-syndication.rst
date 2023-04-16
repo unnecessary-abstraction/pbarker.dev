@@ -14,6 +14,12 @@ Syndication
     posts. So I'm trying something new and syndicating blog posts to `dev.to
     <https://dev.to/>`_, a mid-sized social media site for software developers.
 
+Inspired by `Cory Doctorow <https://pluralistic.net/>`_, I've been thinking
+about the IndieWeb idea of `POSSE <https://pluralistic.net/>`_ (Publish on your
+Own Site, Syndicate Elsewhere) and how to extend the reach of my blog posts. So
+I'm trying something new and syndicating blog posts to `dev.to
+<https://dev.to/>`_, a mid-sized social media site for software developers.
+
 dev.to makes this quite nice with native support a "canonical URL" for posts
 originally published elsewhere. It's also pretty easy to repost existing content
 to since it supports Markdown (my posts are written in reStructuredText for my
