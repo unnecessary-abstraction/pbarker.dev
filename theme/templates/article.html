@@ -33,7 +33,7 @@ SPDX-License-Identifier: Apache-2.0
                 <p class="post-meta">
                     Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time> <br />
                     Tags: {{ article.tags|join(', ') }}<br />
-                    <a href="{{ SITEURL }}/{{ article.url }} rel="bookmark" title="Permalink to {{ article.title|striptags }}"">Permalink</a>
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Permalink</a>
                 </p>
             </div>
             <div>
