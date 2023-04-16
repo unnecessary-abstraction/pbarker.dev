@@ -1,0 +1,65 @@
+Rekeying
+========
+
+:date: 2023-04-16
+:tags: pgp, ssh, laptop.cephei.uk, tau.cephei.uk
+:summary:
+   I've recently made a couple of changes to my development environments. As
+   I've been configuring these environments, I've taken the opportunity to
+   extend the lifetimes of my PGP keys (as they were nearing expiry) and
+   generate new SSH keys.
+
+I've recently made a couple of changes to my development environment(s):
+I now have a shiny new Ryzen 7 7700 based development box (more details
+of this box to follow in future posts...) and a WSL instance on my work
+laptop (running Ubuntu 22.04 for maximum compatibility with my work
+needs). As I've been configuring these environments, I've taken the
+opportunity to extend the lifetimes of my PGP keys (as they were nearing
+expiry) and generate new SSH keys.
+
+PGP key lifetimes extended
+--------------------------
+
+I created two PGP keys back in May & June 2021 - one for when I'm
+wearing my "personal" hat and one for when I'm wearing my "Principal
+Software Engineer @ SanCloud Ltd" hat. Each key was created with an
+initial lifetime of 2 years, which means the expiry dates have been
+approaching. As both keys are still in use I've extended their
+lifetimes, aligning both on a new expiry date of 2025-04-30. If you have
+these keys in your keyring, please refresh them to pick up the new
+expiry dates.
+
+A `bundle containing both PGP keys </pgpkeys.asc>`__ can be downloaded
+from this site. These keys are also available on
+`keys.openpgp.org <https://keys.openpgp.org>`__, see their `usage
+guide <https://keys.openpgp.org/about/usage>`__ for instructions on how
+to fetch keys from that service.
+
+I'd like to highlight Linux Foundation's excellent document `Protecting
+code integrity with
+PGP <https://github.com/lfit/itpol/blob/master/protecting-code-integrity.md>`__
+which I used as my reference back in 2021 when originally creating these
+keys and planning how they would be used. I referred to this document
+again this week to remind me how to extend the lifetime of existing
+keys. It's a comprehensive guide and set of best practices which I
+highly recommend reading.
+
+New SSH keys
+------------
+
+Each development environment has also been given a new SSH keypair. I
+try not to cycle through keypairs too often in order to avoid additional
+sysadmin work for both myself and those I work with, but a change once
+every few years is ok. If either system is rebuilt or reinstalled within
+the next couple of years, the appropriate keypair will be reused unless
+there's a strong reason to change it.
+
+If you ever need to give me remote access to a machine, please add the
+following SSH public keys to the relevant ``authorized_keys`` file::
+
+   ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH7G2D7d165H9rohNED/MmnW68Z01U0AFYghi8vgT3Pv pbarker@tau.cephei.uk
+   ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPpzQXVeU/FgnPrN3KIayuvuAcFpymoovkHkGFTYz3bY pbarker@laptop.cephei.uk
+
+These keys can also be downloaded as a `simple text
+file </sshkeys.txt>`__ and verified with a `detached PGP
+signature </sshkeys.txt.asc>`__.
