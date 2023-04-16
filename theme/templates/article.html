@@ -32,7 +32,8 @@ SPDX-License-Identifier: Apache-2.0
             <div>
                 <p class="post-meta">
                     Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time> <br />
-                    Tags: {{ article.tags|join(', ') }}<br />
+                    {% set comma = joiner(', ') %}
+                    Tags: {% for tag in article.tags %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}<br />
                     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">Permalink</a>
                 </p>
             </div>

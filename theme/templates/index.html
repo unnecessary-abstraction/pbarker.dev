@@ -54,7 +54,8 @@ SPDX-License-Identifier: Apache-2.0
             <h3 class="post-title"><a href="/{{ article.url }}">{{ article.title }}</a></h3>
             <p class="post-meta">
                 Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time><br />
-                Tags: {{ article.tags|join(', ') }}
+                {% set comma = joiner(', ') %}
+                Tags: {% for tag in article.tags %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}
             </p>
             <div class="post-summary">
                 {{ article.summary }}
@@ -64,7 +65,9 @@ SPDX-License-Identifier: Apache-2.0
         <hr />
         {% endfor %}
         <div class="float-right">
-            <a href="/{{ ARCHIVES_URL }}">Archives</a>
+            <a href="/{{ ARCHIVES_URL }}">Archives</a> |
+            <a href="/{{ FEED_ALL_RSS }}">RSS</a> |
+            <a href="/{{ FEED_ALL_ATOM }}">ATOM</a>
         </div>
     </div>
 </div>

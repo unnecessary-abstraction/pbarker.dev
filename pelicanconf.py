@@ -22,14 +22,22 @@ DEFAULT_LANG = 'en'
 
 OUTPUT_PATH = 'public'
 
-# Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
+FEED_ALL_ATOM = 'feed.atom'
+FEED_ALL_RSS = 'feed.rss'
+TAG_FEED_ATOM = 'tags/{slug}/feed.atom'
+TAG_FEED_RSS = 'tags/{slug}/feed.rss'
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+CATEGORY_FEED_ATOM = None
+TRANSLATION_FEED_ATOM = None
+
+TAG_SAVE_AS = 'tags/{slug}/index.html'
+TAG_URL = 'tags/{slug}/'
+TAGS_URL = 'tags/'
+TAGS_SAVE_AS = 'tags/index.html'
 
 MENUITEMS = (
+    ('Tags', '/tags/'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -58,7 +66,5 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 AUTHOR_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
-TAG_SAVE_AS = ''
-TAGS_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
