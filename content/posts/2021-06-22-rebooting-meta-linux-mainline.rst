@@ -158,7 +158,7 @@ straightforward as updates to the kernel recipes are fully automated. There are
 no major changes expected in the near future, the project will just tick over
 with minor improvements and regular recipe updates as needed.  If you have any
 feature requests, please feel free to submit them via the `issue tracker
-<https://github.com/unnecessary-abstraction/meta-linux-mainline/issues>_`
+<https://github.com/unnecessary-abstraction/meta-linux-mainline/issues>`__.
 
 At some point I would like to see recipes for RT kernels added to the layer.
 This isn't something I immediately need myself, so I'd encourage anyone who has

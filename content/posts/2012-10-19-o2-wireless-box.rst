@@ -6,7 +6,7 @@ Lobotomising an O2 Wireless Box IV
 ==================================
 
 :date: 2012-10-19
-:tags: old
+:tags: necropost
 :summary: This is a resurrection of a post from my old personal website. The
           info here is long out of date, but I don't like information to die.
 
