@@ -47,3 +47,47 @@ h2 {
     text-align: center;
     font-size: 75%;
 }
+
+.legend {
+    text-align: center;
+    font-size: 75%;
+}
+
+.admonition {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-style: solid;
+    border-color: #808080;
+    border-radius: 1em;
+}
+
+.admonition-title {
+    font-weight: bold;
+}
+
+.admonition p {
+    margin-bottom: 0;
+}
+
+.caption {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+article {
+    text-align: justify;
+}
+
+.footnote {
+    margin-bottom: 1em;
+}
+
+.rubric {
+    font-weight: bold;
+}
+
+table.footnote .label {
+    padding-right: 1em;
+}
