@@ -17,9 +17,12 @@ SPDX-License-Identifier: Apache-2.0
         <div>
             <table>
                 <tbody>
-                {% for tag,articles in tags|sort %}
+                {% for tag,articles in tags|sort_by_article_count %}
                     <tr>
-                    <td class="py-1 px-1" width="80%"><a href='/tags/{{ tag.slug }}/index.html'>{{ tag }}</a></td>
+                    <td class="py-1 px-1" width="80%">
+                        <a href='/tags/{{ tag.slug }}/index.html'>{{ tag }}</a>
+                        [{{ articles|count }}]
+                    </td>
                     <td class="py-1 px-1"><a href='/tags/{{ tag.slug }}/feed.rss'>RSS</a></td>
                     <td class="py-1 px-1"><a href='/tags/{{ tag.slug }}/feed.atom'>ATOM</a></td>
                     </tr>

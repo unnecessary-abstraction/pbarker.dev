@@ -8,7 +8,7 @@ from pelican import __version__ as PELICAN_VERSION
 
 AUTHOR = 'Paul Barker'
 COPYRIGHT_YEAR = '2020-2023'
-SITENAME = 'Paul Barker'
+SITENAME = 'Linux, Open Source & Unrelated Topics'
 SITEURL = ''
 THEME = 'theme'
 
@@ -38,6 +38,8 @@ TAGS_SAVE_AS = 'tags/index.html'
 
 MENUITEMS = (
     ('Tags', '/tags/'),
+    ('Archives', '/archives/'),
+    ('Newsletter', 'https://buttondown.email/pbarker')
 )
 
 DEFAULT_PAGINATION = 10
@@ -68,3 +70,10 @@ AUTHOR_SAVE_AS = ''
 AUTHORS_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
+
+from functools import partial
+
+JINJA_FILTERS = {
+    'sort_by_article_count':
+        partial(sorted, key=lambda tag: len(tag[1]), reverse=True)
+}
