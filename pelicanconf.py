@@ -13,7 +13,7 @@ SITEURL = ''
 THEME = 'theme'
 
 PATH = 'content'
-ARTICLES_PATHS = ('posts', )
+ARTICLES_PATHS = ('posts', 'drafts' )
 PAGE_PATHS = ('pages', )
 
 TIMEZONE = 'UTC'
