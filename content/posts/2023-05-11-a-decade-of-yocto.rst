@@ -9,7 +9,7 @@ A decade of contribution to OpenEmbedded & the Yocto Project
 :tags: yocto, embedded-linux
 :summary:
     I realised recently that I have now been involved in OpenEmbedded and the
-    Yocto Project for over a decade! I though I'd take the opportunity to look
+    Yocto Project for over a decade! I thought I'd take the opportunity to look
     back at how I first got involved with the project and my early
     contributions.
 
