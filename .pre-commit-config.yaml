@@ -18,7 +18,3 @@ repos:
     rev: v1.1.2
     hooks:
     -   id: reuse
--   repo: https://github.com/markdownlint/markdownlint
-    rev: v0.12.0
-    hooks:
-    -   id: markdownlint
