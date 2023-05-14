@@ -63,6 +63,39 @@ SPDX-License-Identifier: Apache-2.0
         </div>
         <hr />
         {% endfor %}
+        <nav aria-label="Pagination">
+            <ul class="pagination">
+                {% if articles_page.has_previous() %}
+                <li class="page-item">
+                    {% if articles_page.previous_page_number() == 1 %}
+                    <a class="page-link" href="/index.html">&laquo;</a>
+                    {% else %}
+                    <a class="page-link" href="/index{{ articles_page.previous_page_number() }}.html">&laquo;</a>
+                    {% endif %}
+                </li>
+                {% endif %}
+                {% for i in range(1, articles_paginator.num_pages + 1) %}
+                {% if i == articles_page.number %}
+                <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">{{ i }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    {% if i == 1 %}
+                    <a class="page-link" href="/index.html">1</a>
+                    {% else %}
+                    <a class="page-link" href="/index{{ i }}.html">{{ i }}</a>
+                    {% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+                {% if articles_page.has_next() %}
+                <li class="page-item">
+                    <a class="page-link" href="/index{{ articles_page.next_page_number() }}.html">&raquo;</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
         <div class="float-right">
             <a href="/{{ ARCHIVES_URL }}">Archives</a> |
             <a href="/{{ FEED_ALL_RSS }}">RSS</a> |
