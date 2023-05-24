@@ -91,3 +91,7 @@ article {
 table.footnote .label {
     padding-right: 1em;
 }
+
+ul.simple li {
+    margin-bottom: 0.5em;
+}
