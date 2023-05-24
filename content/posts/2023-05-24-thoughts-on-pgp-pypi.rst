@@ -31,7 +31,7 @@ commonly used tool, gnupg, being rather obtuse. Improvements have definitely
 been made in recent years though - for example key discoverability and questions
 of how much trust to give to unknown keys have been made easier by the
 introduction of `keys.openpgp.org <https://keys.openpgp.org/about>`__ which
-vefifies ownership of email addresses before indexing PGP keys. And the
+verifies ownership of email addresses before indexing PGP keys. And the
 `Sequoia-PGP <https://sequoia-pgp.org/>`__ library and command line tools bring
 memory safety (Rust FTW), a cleaner API and a simpler command line interface to
 users. But are these infrastructure and tooling improvements enough?
@@ -90,7 +90,7 @@ oligopoly of Microsoft, Google and co? I don't think we do. Instead, if OIDC is
 going to be used in this way, we need to see a variety of other OIDC hosts who
 can act as privacy-preserving, open and non-commercial identity providers for
 the community. We will also need to see well-supported options for both
-individuals and projects to self-host an OIDC identidy provider.
+individuals and projects to self-host an OIDC identity provider.
 
 It's also worth reviewing `What Sigstore Doesn't Guarantee
 <https://docs.sigstore.dev/security/#what-sigstore-doesnt-guarantee>`__. The
@@ -101,7 +101,7 @@ Sigstore also integrates with `Rekor <https://github.com/sigstore/rekor>`__ to
 provide "an immutable tamper resistant ledger" (quoting from the readme) of
 signatures. This is an excellent feature, but the benefit isn't exclusive to
 sigstore as other signature types (such as Minisign signatures) can be uploaded
-to the Rekor transparancy log.
+to the Rekor transparency log.
 
 On balance, I'm feeling positive about sigstore. More work is definitely needed,
 both in integration with hosts like PyPI & GitHub and with support for a more
@@ -115,7 +115,7 @@ Coming back to Python
 To loop back round to PyPI, my complaint is that the (somewhat poor and
 atrophied) support for PGP is being dropped before a replacement has been
 integrated. If sigstore does prove to be the way forward then that's great, but
-I would have preferred PyPI to keep the exisiting PGP support as-is until
+I would have preferred PyPI to keep the existing PGP support as-is until
 sigstore integration can be deployed. I don't agree that the status quo is
 "worse than useless", though I do agree that it has major issues.
 
