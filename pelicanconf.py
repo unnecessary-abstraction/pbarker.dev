@@ -51,6 +51,7 @@ PLUGINS = (
 
 STATIC_PATHS = (
     'css',
+    'js',
     'images',
     'pgpkeys.asc',
     'sshkeys.txt',

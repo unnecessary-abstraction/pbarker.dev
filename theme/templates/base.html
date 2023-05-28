@@ -11,21 +11,26 @@ SPDX-License-Identifier: Apache-2.0
     <meta name="generator" content="Pelican" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-4.5.0.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap-darkmode-0.9.1.css"/>
     <link rel="stylesheet" type="text/css" href="/css/local.css">
     <link rel="stylesheet" type="text/css" href="/css/youtube.css">
-    <link rel="stylesheet" href="https://unpkg.com/bootstrap-darkmode@0.9.1/css/darktheme.css"/>
     {% block head %}
     {% endblock head %}
   </head>
 
   <body>
-    <script src="https://unpkg.com/bootstrap-darkmode@0.9.1/bundles/bootstrap-darkmode.umd.js"></script>
+    <script src="/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/js/popper-1.16.0.min.js"></script>
+    <script src="/js/iconify-icon-1.0.3.min.js"></script>
+    <script src="/js/bootstrap-4.5.0.min.js"></script>
+    <script src="/js/bootstrap-darkmode-0.9.1.umd.js"></script>
     <script>
         const BootstrapDarkmode = window['bootstrap-darkmode'];
         const themeConfig = new BootstrapDarkmode.ThemeConfig();
         themeConfig.initTheme();
     </script>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light bg-darkmode-dark fixed-top">
         <div class="container">
             <a class="navbar-brand" href="/">{{ SITENAME }}</a>
@@ -71,11 +76,5 @@ SPDX-License-Identifier: Apache-2.0
             </div>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.3/dist/iconify-icon.min.js" integrity="sha384-ulpGtTp2Fg/82U51Gj6dS7kqQKFGVh5reKZ4iEMXQwd9YPiJ/WuuvJKPHOMzKMi/" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-
   </body>
 </html>
