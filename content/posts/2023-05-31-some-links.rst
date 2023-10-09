@@ -15,7 +15,7 @@ works for me. Today we'll be roleplaying as a link blog, but with one aggregate
 post covering the month of May instead of one post per link. Let me know what
 you think!
 
-I built this list throughout the month on `Raindrop.io <https://raindrop.io>`__ - 
+I built this list throughout the month on `Raindrop.io <https://raindrop.io>`__ -
 you can also see `this list <https://raindrop.io/pbarker/may-2023-34256215>`__
 over there. You can even follow along as I build `June's list
 <https://raindrop.io/pbarker/june-2023-34256326>`__ if you want to!
@@ -178,7 +178,7 @@ Other Topics
   <https://blog.thunderbird.net/2023/05/thunderbird-is-thriving-our-2022-financial-report/#comment-3523>`__
   if you want a brief breakdown on the donations made to the project in 2022.
 
-- Never trust an offer of "free forever" pricing on a cloud-hosted service - 
+- Never trust an offer of "free forever" pricing on a cloud-hosted service -
   many folks are now learning what happens
   `when “free forever” means “free for the next 4 months”
   <https://blog.zulip.com/2023/05/04/when-free-forever-is-4-months/>`__.
