@@ -10,9 +10,9 @@ meta-linux-mainline in 2023
 :summary:
    It's time for a year end review of `meta-linux-mainline
    <https://github.com/betafive/meta-linux-mainline>`__, a `Yocto Project
-   <https://www.yoctoproject.org>`__ layer which contains recipes for the
+   <https://www.yoctoproject.org>`__ layer which contains recipes for all
    currently supported Linux kernel release series and the latest mainline
-   kernel. This year the project has seen various improvments as well as the
+   kernel. This year the project has seen various improvements as well as the
    regular flow of new Linux kernel & Yocto Project releases. The layer is now
    updated most weeks, more closely tracking the kernel release cycle but
    there's still more we can do with additional resources.
@@ -25,7 +25,7 @@ supported Linux kernel release series and the latest mainline kernel (see
 project for me, but it has seen usage in both my current day job with Renesas
 and my previous work with SanCloud.
 
-This year the project has seen various improvments as well as the regular flow
+This year the project has seen various improvements as well as the regular flow
 of new Linux kernel & Yocto Project releases. The layer is now updated most
 weeks, more closely tracking the kernel release cycle but there's still more we
 can do with additional resources.
@@ -203,7 +203,7 @@ again.
 
 The new LTS series will be maintained until December 2026, meaning that
 the end-of-life for the last 4 LTS series are all aligned. The support period
-for LTS kernels is slowly reducing in line with the annoucement earlier in the
+for LTS kernels is slowly reducing in line with the announcement earlier in the
 year, it's expected that future LTS series will be supported for 2 years each.
 This will definitely reduce the number of kernel recipes in meta-linux-mainline
 over the next couple of years and should make maintaining this layer a little
