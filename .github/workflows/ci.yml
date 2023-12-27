@@ -21,6 +21,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Install Tailwind CSS
+        run: |
+          wget "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.1/tailwindcss-linux-x64" -O /usr/local/bin/tailwindcss
+          chmod a+x /usr/local/bin/tailwindcss
+
       - name: Build website with Pelican
         run: |
           if [[ $GITHUB_REF == 'refs/heads/main' ]]; then

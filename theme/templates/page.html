@@ -4,27 +4,16 @@ SPDX-License-Identifier: Apache-2.0
 -->
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} - {{ page.title }}{% endblock %}
+
 {% block content %}
-<div class="row mt-4">
-    <div class="col-md-12">
-        <h1 class="post-title">
-            {{ page.title }}
-        </h1>
+<article class="prose prose-slate dark:prose-invert max-w-3xl mx-auto">
+  <div class="w-full flow-root">
+    <div class="sm:float-left">
+      <h1 class="mb-1">{{ page.title }}</h1>
     </div>
-</div>
-<div class="row mb-4">
-    <div class="col-md-2">
-    </div>
-    <div class="col-md-8 page-content">
-        <article>
-            <div>
-                <div class="py-2">
-                    {{ page.content }}
-                </div>
-            </div>
-        </article>
-    </div>
-    <div class="col-md-2">
-    </div>
-</div>
+  </div>
+  <div class="text-justify">
+    {{ page.content }}
+  </div>
+</article>
 {% endblock content %}

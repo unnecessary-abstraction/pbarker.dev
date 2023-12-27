@@ -36,6 +36,7 @@ def clean(c):
 @task
 def build(c, prod=False):
     """Build the site in dev mode (default) or prod mode (with `--prod` argument)"""
+    c.run('tailwindcss -m -i css/base.scss -o content/css/main.css')
     if prod:
         c.run('pelican -s {settings_publish}'.format(**CONFIG))
     else:

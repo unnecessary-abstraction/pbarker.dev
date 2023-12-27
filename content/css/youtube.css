@@ -28,7 +28,8 @@
 	position: relative;
 	height: 0;
     overflow: hidden;
-    margin-bottom: 1.4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 }
 .youtube-4x3 iframe,
 .youtube-16x9 iframe {
