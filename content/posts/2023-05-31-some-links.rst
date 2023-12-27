@@ -17,8 +17,7 @@ you think!
 
 I built this list throughout the month on `Raindrop.io <https://raindrop.io>`__ -
 you can also see `this list <https://raindrop.io/pbarker/may-2023-34256215>`__
-over there. You can even follow along as I build `June's list
-<https://raindrop.io/pbarker/june-2023-34256326>`__ if you want to!
+over there.
 
 Kernel
 ------
