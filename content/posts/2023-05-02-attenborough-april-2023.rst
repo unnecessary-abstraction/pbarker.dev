@@ -48,8 +48,6 @@ day was the quality of the bacon sandwiches in the visitors' centre.
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-17/img00080.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52858342680/sizes/>`__
 
-|br|
-
 .. figure:: https://pub.pbarker.dev/photos/2023-04-17/img00083_800.webp
    :width: 100%
    :alt: A pair of Egyptian Geese.
@@ -59,8 +57,6 @@ day was the quality of the bacon sandwiches in the visitors' centre.
    `2400px WebP <https://pub.pbarker.dev/photos/2023-04-17/img00083_2400.webp>`__ |
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-17/img00083.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52851129502/sizes/>`__
-
-|br|
 
 24th April
 ----------
@@ -81,8 +77,6 @@ the curious moorhen).
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00991.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52858577951/sizes/>`__
 
-|br|
-
 .. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00990_800.webp
    :width: 100%
    :alt: The head and neck of a swan.
@@ -94,8 +88,6 @@ the curious moorhen).
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00990.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865398871/sizes/>`__
 
-|br|
-
 .. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00978_800.webp
    :width: 100%
    :alt: A curious moorhen.
@@ -106,8 +98,6 @@ the curious moorhen).
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00978.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865569204/sizes/>`__
 
-|br|
-
 .. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00989_800.webp
    :width: 100%
    :alt: A pair of geese swimming on the lake with 4 goslings protected between them.
@@ -117,8 +107,6 @@ the curious moorhen).
    `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00989_2400.webp>`__ |
    `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00989.webp>`__ |
    `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865572489/sizes/>`__
-
-|br|
 
 .. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00992_800.webp
    :width: 100%

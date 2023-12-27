@@ -7,74 +7,45 @@ SPDX-License-Identifier: Apache-2.0
       prefix="og: https://ogp.me/ns# article: https://ogp.me/ns/article# profile: https://ogp.me/ns/profile">
   <head>
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <meta name="generator" content="Pelican" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap-4.5.0.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/bootstrap-darkmode-0.9.1.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/local.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="/css/youtube.css">
     {% block head %}
     {% endblock head %}
   </head>
 
-  <body>
-    <script src="/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="/js/popper-1.16.0.min.js"></script>
-    <script src="/js/iconify-icon-1.0.3.min.js"></script>
-    <script src="/js/bootstrap-4.5.0.min.js"></script>
-    <script src="/js/bootstrap-darkmode-0.9.1.umd.js"></script>
-    <script>
-        const BootstrapDarkmode = window['bootstrap-darkmode'];
-        const themeConfig = new BootstrapDarkmode.ThemeConfig();
-        themeConfig.initTheme();
-    </script>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-darkmode-dark fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="/">{{ SITENAME }}</a>
-            <span><small>by {{ AUTHOR }}</small></span>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    {% for title, link in MENUITEMS %}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ link }}">{{ title }}</a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
-        <script>
-            BootstrapDarkmode.writeDarkSwitch(themeConfig);
-        </script>
-    </nav>
-
-    <div class="container">
-        {% block content %}
-        {% endblock content %}
+  <body class="bg-stone-100 dark:bg-stone-800 prose-a:underline-offset-2 prose-a:text-indigo-700 prose-a:no-underline hover:prose-a:underline dark:prose-a:text-indigo-300">
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <header class="lg:max-w-5xl w-full mx-auto px-8 py-4 mt-2 flow-root bg-slate-200 dark:bg-slate-800">
+      <p class="float-left">
+        <span class="text-lg dark:text-white font-semibold"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></span>
+        <span class="prose prose-slate dark:prose-invert">by {{ AUTHOR }}</span>
+      </p>
+      <nav class="float-right text-right text-lg dark:text-slate-100">
+        {% for title, link in MENUITEMS %}
+        <span class="pl-4"><a href="{{ link }}">{{ title }}</a></span>
+        {% endfor %}
+      </nav>
+    </header>
+    <div class="lg:max-w-5xl w-full mx-auto p-8">
+      {% block content %}
+      {% endblock content %}
     </div>
-
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <p class="footer-msg">
-                        Copyright © {{ AUTHOR }} <br />
-                        <a href="/meta/">About this site</a>
-                    </p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="footer-msg text-right">
-                        Spotted a problem or got feedback? <br />
-                        Please let me know via the <a href="https://github.com/unnecessary-abstraction/pbarker.dev/issues">issue tracker</a>.
-                    </p>
-                </div>
-            </div>
-        </div>
+    <div class="px-0 py-4">
+      <hr class="border-slate-500">
+    </div>
+    <footer class="lg:max-w-5xl w-full mx-auto px-8 mb-4 flow-root">
+      <p class="float-left text-sm prose prose-slate dark:prose-invert">
+        © Paul Barker
+        (except as otherwise noted)<br>
+        <a href="/license/">Content licenses</a>
+      </p>
+      <p class="text-sm text-right float-right prose prose-slate dark:prose-invert">
+        Spotted a problem or got feedback? <br />
+        Please let me know via the <a href="https://github.com/unnecessary-abstraction/pbarker.dev/issues">issue tracker</a>.
+      </p>
     </footer>
   </body>
 </html>
