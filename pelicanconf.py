@@ -7,7 +7,6 @@ from __future__ import unicode_literals
 from pelican import __version__ as PELICAN_VERSION
 
 AUTHOR = 'Paul Barker'
-COPYRIGHT_YEAR = '2020-2023'
 SITENAME = 'Linux, Open Source & Unrelated Topics'
 SITEURL = ''
 THEME = 'theme'
