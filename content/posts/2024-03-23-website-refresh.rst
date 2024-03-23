@@ -19,7 +19,7 @@ Today I've deployed the new design for this website, built using `Pelican`_ and
    :width: 100%
    :alt: A Brown Pelican in flight against a background of grey clouds.
 
-   Photo of a flying Brown Pelican in flight by Pamela Marie on `Pexels`_.
+   Photo of a Brown Pelican in flight by Pamela Marie on `Pexels`_.
 
 .. _Pexels: https://www.pexels.com/photo/black-and-white-bird-close-up-photography-2625816/
 
