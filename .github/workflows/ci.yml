@@ -28,11 +28,7 @@ jobs:
 
       - name: Build website with Pelican
         run: |
-          if [[ $GITHUB_REF == 'refs/heads/main' ]]; then
-            inv build --prod
-          else
-            inv build
-          fi
+          inv build --prod
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
