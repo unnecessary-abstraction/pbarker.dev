@@ -19,7 +19,6 @@ SETTINGS.update(LOCAL_SETTINGS)
 
 CONFIG = {
     'settings_base': SETTINGS_FILE_BASE,
-    'settings_publish': 'publishconf.py',
     # Output path. Can be absolute or relative to tasks.py. Default: 'output'
     'deploy_path': SETTINGS['OUTPUT_PATH'],
     # Port for `serve`
@@ -37,10 +36,7 @@ def clean(c):
 def build(c, prod=False):
     """Build the site in dev mode (default) or prod mode (with `--prod` argument)"""
     c.run('tailwindcss -m -i css/base.scss -o content/css/main.css')
-    if prod:
-        c.run('pelican -s {settings_publish}'.format(**CONFIG))
-    else:
-        c.run('pelican -s {settings_base}'.format(**CONFIG))
+    c.run('pelican -s {settings_base}'.format(**CONFIG))
 
 @task
 def rebuild(c):

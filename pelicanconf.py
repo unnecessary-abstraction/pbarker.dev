@@ -8,8 +8,9 @@ from pelican import __version__ as PELICAN_VERSION
 
 AUTHOR = 'Paul Barker'
 SITENAME = 'Linux, Open Source & Unrelated Topics'
-SITEURL = ''
+SITEURL = 'https://pbarker.dev'
 THEME = 'theme'
+RELATIVE_URLS = False
 
 PATH = 'content'
 ARTICLES_PATHS = ('posts', 'drafts' )
