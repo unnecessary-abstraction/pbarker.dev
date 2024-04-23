@@ -18,17 +18,29 @@ jobs:
           python-version: "3.10"
           cache: "pip"
 
+      - name: Set up caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pypoetry
+            ~/.local/pipx
+          key: ${{ runner.os }}-cache
+
+      - name: Install poetry
+        run: pipx install poetry==1.8.2
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: poetry install --no-interaction
 
       - name: Install Tailwind CSS
         run: |
           wget "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.1/tailwindcss-linux-x64" -O /usr/local/bin/tailwindcss
           chmod a+x /usr/local/bin/tailwindcss
 
-      - name: Build website with Pelican
+      - name: Build website with Pelican & TailwindCSS
         run: |
-          inv build
+          poetry run pelican
+          tailwindcss -i css/base.scss -o public/css/main.css
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
