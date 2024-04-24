@@ -37,10 +37,24 @@ jobs:
           wget "https://github.com/tailwindlabs/tailwindcss/releases/download/v3.4.1/tailwindcss-linux-x64" -O /usr/local/bin/tailwindcss
           chmod a+x /usr/local/bin/tailwindcss
 
+      - name: Install minify
+        run: |
+          wget "https://github.com/tdewolff/minify/releases/download/v2.20.19/minify_linux_amd64.tar.gz"
+          tar xf minify_linux_amd64.tar.gz minify
+          mv minify /usr/local/bin/minify
+          rm -f minify_linux_amd64.tar.gz
+
       - name: Build website with Pelican & TailwindCSS
         run: |
           poetry run pelican
           tailwindcss -i css/base.scss -o public/css/main.css
+
+      - name: Minify output
+        run: |
+          minify -r public -o minified -s
+          rm -rf public
+          mv minified/public public
+          rmdir minified
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v3
