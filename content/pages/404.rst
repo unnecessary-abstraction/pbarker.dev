@@ -1,0 +1,11 @@
+..
+   Copyright Paul Barker <paul@pbarker.dev>
+   SPDX-License-Identifier: CC-BY-NC-4.0
+
+Error 404
+=========
+
+:url: 404.html
+:save_as: 404.html
+
+We had a good rummage around in the back but couldn't find it. Sorry!
