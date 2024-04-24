@@ -15,7 +15,7 @@ Website Refresh
 Today I've deployed the new design for this website, built using `Pelican`_ and
 `Tailwind CSS`_.
 
-.. figure:: https://pub.pbarker.dev/pexels/pelican.webp
+.. figure:: https://img.pbarker.dev/misc/pelican.webp
    :width: 100%
    :alt: A Brown Pelican in flight against a background of grey clouds.
 

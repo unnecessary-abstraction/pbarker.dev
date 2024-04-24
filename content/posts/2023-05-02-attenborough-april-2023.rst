@@ -11,10 +11,6 @@ Attenborough Nature Reserve in April 2023
   <https://www.nottinghamshirewildlife.org/attenborough>`__, Nottingham, UK, in
   the month of April 2023.
 
-.. |br| raw:: html
-
-     <br/>
-
 My interest in wildlife photography has built up slowly over the past 2 years. I
 suppose it's a consequence of the pandemic and lockdowns, I began to explore my
 local area more and connect with the wildlife. And most recently, I've grown
@@ -38,25 +34,17 @@ This was a relatively short walk around the reserve with my partner, so I didn't
 spend too much time running off with my camera. My favourite discovery of the
 day was the quality of the bacon sandwiches in the visitors' centre.
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-17/img00080_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00080_800.webp
    :width: 100%
    :alt: A magnificent great tit!
 
-   A magnificent Great Tit! |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-17/img00080_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-17/img00080.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52858342680/sizes/>`__
+   A magnificent Great Tit!
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-17/img00083_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00083_800.webp
    :width: 100%
    :alt: A pair of Egyptian Geese.
 
-   A pair of Egyptian Geese. |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-17/img00083_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-17/img00083.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52851129502/sizes/>`__
+   A pair of Egyptian Geese.
 
 24th April
 ----------
@@ -67,56 +55,36 @@ the site but saw little of interest to photograph from there. My best photos of
 the day actually came from the vicinity of the car park (the duck, the swan and
 the curious moorhen).
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00991_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00991_800.webp
    :width: 100%
    :alt: A very dapper duck.
 
-   A very dapper duck. |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00991_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00991.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52858577951/sizes/>`__
+   A very dapper duck.
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00990_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00990_800.webp
    :width: 100%
    :alt: The head and neck of a swan.
 
    This was quite a friendly swan - I was able to get really close to it without
-   getting hissed at. |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00990_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00990.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865398871/sizes/>`__
+   getting hissed at.
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00978_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00978_800.webp
    :width: 100%
    :alt: A curious moorhen.
 
-   This moorhen looked at me curiously for just a second before running off! |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00978_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00978.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865569204/sizes/>`__
+   This moorhen looked at me curiously for just a second before running off!
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00989_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00989_800.webp
    :width: 100%
    :alt: A pair of geese swimming on the lake with 4 goslings protected between them.
 
-   The first goslings I've seen this year! |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00989_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00989.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52865572489/sizes/>`__
+   The first goslings I've seen this year!
 
-.. figure:: https://pub.pbarker.dev/photos/2023-04-24/img00992_800.webp
+.. figure:: https://img.pbarker.dev/misc/img00992_800.webp
    :width: 100%
    :alt: The Visitors' Centre at Attenborough Nature Reserve.
 
-   The Visitors' Centre at Attenborough Nature Reserve. |br|
-   Download:
-   `2400px WebP <https://pub.pbarker.dev/photos/2023-04-24/img00992_2400.webp>`__ |
-   `Lossless WebP <https://pub.pbarker.dev/photos/2023-04-24/img00992.webp>`__ |
-   `JPEGs via Flickr <https://www.flickr.com/photos/pbrkr/52859512890/sizes/>`__
+   The Visitors' Centre at Attenborough Nature Reserve.
 
 I really enjoyed both these visits and I'm going to see if I can make this a
 regular thing. Perhaps there will be another Attenborough Nature Reserve post

@@ -23,7 +23,7 @@ stressful, but ultimately an excellent move. I'm enjoying being back in the
 North! Our home in Nottingham was pretty well located for green space, but we
 have even more woodland, hills and wildlife around us here.
 
-.. figure:: https://pub.pbarker.dev/photos/2023-09-21/img0001_960.webp
+.. figure:: https://img.pbarker.dev/misc/img0001_960.webp
    :width: 100%
    :alt: A sleepy hedgehog in September.
 
@@ -38,7 +38,7 @@ routine now, so maybe I'll find time to write some more. I have no shortage of
 thoughts taking up space in my head so I suppose I should use them for
 something!
 
-.. figure:: https://pub.pbarker.dev/photos/2023-10-23/img0003_960.webp
+.. figure:: https://img.pbarker.dev/misc/img0003_960.webp
    :width: 100%
    :alt: A foggy October day.
 

@@ -29,7 +29,7 @@ with impacts of Brexit & legislation changes on my consulting business). But
 sometimes one hit is followed by another, and sometimes we have to accept that
 our capabilities have been limited for a while.
 
-.. figure:: /images/malham_2021-05.jpg
+.. figure:: https://img.pbarker.dev/misc/malham_2021-05.jpg
    :width: 100%
    :alt: The village of Malham (Yorkshire, UK) and the surrounding countryside
          seen from higher ground to the North.

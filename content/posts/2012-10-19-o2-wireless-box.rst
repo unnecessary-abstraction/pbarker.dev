@@ -16,7 +16,7 @@ long out of date, but I don't like information to die.
 Introduction
 ------------
 
-.. figure:: /images/1280px-O2_Wireless_Box_IV.jpg
+.. figure:: https://img.pbarker.dev/misc/1280px-O2_Wireless_Box_IV.jpg
    :width: 100%
    :alt: Photo of an O2 Wireless Box IV.
 

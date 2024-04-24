@@ -55,7 +55,7 @@ way around Yocto Project by experimenting and by seeing if I could fix issues as
 I came across them. After a couple of early attempts on the mailing list, I
 landed my first contribution in March 2013: `a one-line fix for the gnupg recipe`_.
 
-.. figure:: https://pub.pbarker.dev/photos/misc/udaq1.webp
+.. figure:: https://img.pbarker.dev/misc/udaq1.webp
    :width: 100%
 
    An early prototype of the UDAQ hardware. From left to right, you can see the
@@ -64,7 +64,7 @@ landed my first contribution in March 2013: `a one-line fix for the gnupg recipe
    audio line input to the BeagleBoard xM to digitise the signals from a
    hydrophone, limiting the bandwidth which could be captured.
 
-.. figure:: https://pub.pbarker.dev/photos/misc/udaq2.webp
+.. figure:: https://img.pbarker.dev/misc/udaq2.webp
    :width: 100%
 
    A later prototype of the UDAQ hardware (in glorious potato-camera quality).
