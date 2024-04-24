@@ -55,7 +55,8 @@ STATIC_PATHS = (
     'images',
     'pgpkeys.asc',
     'sshkeys.txt',
-    'sshkeys.txt.asc'
+    'sshkeys.txt.asc',
+    'robots.txt',
 )
 
 ARTICLE_URL = 'posts/{date:%Y-%m-%d}/{slug}/'
