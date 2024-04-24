@@ -15,7 +15,7 @@ SPDX-License-Identifier: Apache-2.0
       {% for article in dates %}
         <tr>
         <td class="p-1">{{ article.date.strftime("%Y-%m-%d") }}</td>
-        <td class="p-1"><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></td>
+        <td class="p-1"><a href="/{{ article.url }}">{{ article.title }}</a></td>
         </tr>
       {% endfor %}
       </tbody>

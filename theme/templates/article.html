@@ -35,12 +35,12 @@ SPDX-License-Identifier: Apache-2.0
   <div class="w-full flow-root mt-4">
     {% if article.prev_article %}
     <div class="float-left">
-      <a href="{{ SITEURL }}/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>
+      <a href="/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>
     </div>
     {% endif %}
     {% if article.next_article %}
     <div class="float-right text-right">
-      <a href="{{ SITEURL }}/{{ article.next_article.url }}">{{ article.next_article.title }} &gt;&gt;</a>
+      <a href="/{{ article.next_article.url }}">{{ article.next_article.title }} &gt;&gt;</a>
     </div>
     {% endif %}
   </div>
