@@ -50,13 +50,12 @@ PLUGINS = (
 )
 
 STATIC_PATHS = (
-    'css',
-    'svg',
-    'images',
+    'favicon.ico',
     'pgpkeys.asc',
+    'robots.txt',
     'sshkeys.txt',
     'sshkeys.txt.asc',
-    'robots.txt',
+    'svg',
 )
 
 ARTICLE_URL = 'posts/{date:%Y-%m-%d}/{slug}/'
