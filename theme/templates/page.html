@@ -6,11 +6,9 @@ SPDX-License-Identifier: Apache-2.0
 {% block title %}{{ SITENAME }} - {{ page.title }}{% endblock %}
 
 {% block content %}
-<article class="prose prose-slate dark:prose-invert max-w-3xl mx-auto">
-  <div class="w-full flow-root">
-    <div class="sm:float-left">
-      <h1 class="mb-1">{{ page.title }}</h1>
-    </div>
+<article class="prose prose-slate dark:prose-invert prose-p:max-w-3xl prose-p:mx-auto prose-headings:max-w-3xl prose-headings:mx-auto prose-ul:max-w-3xl prose-ul:mx-auto prose-pre:max-w-3xl prose-pre:mx-auto prose-table:max-w-3xl prose-table:mx-auto w-full max-w-5xl mx-auto">
+  <div class="w-full flow-root max-w-3xl mx-auto">
+    <h1 class="mb-1 text-center">{{ page.title }}</h1>
   </div>
   <div class="text-justify">
     {{ page.content }}

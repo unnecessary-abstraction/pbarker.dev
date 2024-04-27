@@ -18,21 +18,19 @@ SPDX-License-Identifier: Apache-2.0
 {% endblock head %}
 
 {% block content %}
-<article class="prose prose-slate dark:prose-invert max-w-3xl mx-auto">
-  <div class="w-full flow-root">
-    <div class="sm:float-left">
-      <h1 class="mb-1">{{ article.title }}</h1>
-      <p class="text-xs italic my-0">
-        Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time><br>
-        {% set comma = joiner(', ') %}
-        Tags: {% for tag in article.tags %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}<br />
-      </p>
-    </div>
+<article class="prose prose-slate dark:prose-invert prose-p:max-w-3xl prose-p:mx-auto prose-headings:max-w-3xl prose-headings:mx-auto prose-ul:max-w-3xl prose-ul:mx-auto prose-pre:max-w-3xl prose-pre:mx-auto prose-table:max-w-3xl prose-table:mx-auto w-full max-w-5xl mx-auto">
+  <div class="w-full flow-root max-w-3xl mx-auto">
+    <h1 class="mb-1 text-center">{{ article.title }}</h1>
+    <p class="text-xs italic">
+      Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time><br>
+      {% set comma = joiner(', ') %}
+      Tags: {% for tag in article.tags %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}<br />
+    </p>
   </div>
   <div class="text-justify">
     {{ article.content }}
   </div>
-  <div class="w-full flow-root mt-4">
+  <div class="w-full flow-root mt-8">
     {% if article.prev_article %}
     <div class="float-left">
       <a href="/{{ article.prev_article.url }}">&lt;&lt; {{ article.prev_article.title }}</a>

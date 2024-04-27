@@ -15,6 +15,7 @@
     text-align: center;
     font-size: small;
     margin-top: 0.75em;
+    max-width: 40rem;
 }
 
 .figure img {
@@ -48,4 +49,16 @@
 
 .prose {
     line-height: 1.6;
+}
+
+.rubric {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    font-size: large;
+}
+
+table.footnote {
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
