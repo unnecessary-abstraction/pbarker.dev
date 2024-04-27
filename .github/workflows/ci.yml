@@ -47,7 +47,7 @@ jobs:
       - name: Build website with Pelican & TailwindCSS
         run: |
           poetry run pelican
-          tailwindcss -i css/base.scss -o public/css/main.css
+          tailwindcss -i css/main.scss -o public/css/main.css
 
       - name: Minify output
         run: |
