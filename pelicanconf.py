@@ -72,6 +72,10 @@ AUTHORS_SAVE_AS = ''
 CATEGORY_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
+DOCUTILS_SETTINGS = {
+    'strip_comments': True,
+}
+
 from functools import partial
 
 JINJA_FILTERS = {
