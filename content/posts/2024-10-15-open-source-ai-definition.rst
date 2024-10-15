@@ -18,7 +18,8 @@ The Open Source AI Definition is not fit for purpose
     also calls into question the purpose of the definition, and may lead to a
     loss of respect for the existing Open Source definition.
 
-    The definition must be modified to require Open Source AI Systems to include
+    If the Open Source Initiative insists on releasing an Open Source AI
+    definition, the definition must require Open Source AI Systems to include
     the release of complete corresponding training data under an open license.
 
 The `Open Source Initiative`_ have published a release candidate version of
@@ -31,8 +32,9 @@ training data, the definition cannot achieve its stated goals. This choice
 also calls into question the purpose of the definition, and may lead to a
 loss of respect for the existing Open Source definition.
 
-The definition must be modified to require Open Source AI Systems to include the
-release of complete corresponding training data under an open license.
+If the Open Source Initiative insists on releasing an Open Source AI definition,
+the definition must require Open Source AI Systems to include the release of
+complete corresponding training data under an open license.
 
 .. _Open Source Initiative: https://opensource.org
 .. _Open Source AI Definition: https://opensource.org/deepdive/drafts/the-open-source-ai-definition-1-0-rc1
