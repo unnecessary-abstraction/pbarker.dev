@@ -1,0 +1,21 @@
+..
+   Copyright Paul Barker <paul@pbarker.dev>
+   SPDX-License-Identifier: CC-BY-NC-4.0
+
+Conference Talk: Licensing 2.0
+==============================
+
+:date: 2018-10-25
+:tags: yocto, conference-talk
+:summary:
+    I gave a talk on license compliance at the `Yocto Project Dev Day (Europe)
+    2018`_ with Beth Flanagan in Edinburgh, Scotland.
+
+I gave a talk on license compliance and auditing at the `Yocto Project Dev Day
+(Europe) 2018`_ with Beth Flanagan in Edinburgh, Scotland.
+
+Slides from this talk are available in `PDF`_ and `PowerPoint (pptx)`_ formats.
+
+.. _Yocto Project Dev Day (Europe) 2018: https://wiki.yoctoproject.org/wiki/DevDay_Edinburgh_2018
+.. _PDF: https://pub.pbarker.dev/presentations/2018-10-25%20Yocto%20Project%20Dev%20Day%20Europe%202018%20-%20Licensing%202.0/Licensing%202.0.pdf
+.. _PowerPoint (pptx): https://pub.pbarker.dev/presentations/2018-10-25%20Yocto%20Project%20Dev%20Day%20Europe%202018%20-%20Licensing%202.0/Licensing%202.0.pptx

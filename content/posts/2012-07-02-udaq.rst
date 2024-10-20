@@ -1,0 +1,44 @@
+..
+   Copyright Paul Barker <paul@pbarker.dev>
+   SPDX-License-Identifier: CC-BY-NC-4.0
+
+Conference Paper: Development of a versatile platform for long-term underwater acoustic monitoring
+==================================================================================================
+
+:date: 2012-07-02
+:tags: underwater-acoustics, conference-talk
+:summary:
+    As part of my academic research, I published a conference paper and gave a
+    talk on the development of the UDAQ system for long-term underwater acoustic
+    monitoring at the European Conference on Underwater Acoustics (ECUA) 2012 in
+    Edinburgh, Scotland.
+
+As part of my academic research, I published a conference paper and gave a talk
+on the development of the UDAQ system for long-term underwater acoustic
+monitoring at the European Conference on Underwater Acoustics (ECUA) 2012 in
+Edinburgh, Scotland.
+
+The `conference paper`_ is available from Research Gate.
+
+.. _conference paper: https://www.researchgate.net/publication/288723813_Development_of_a_versatile_platform_for_long-term_underwater_acoustic_monitoring
+
+Abstract
+--------
+
+The requirement for acoustic monitoring of marine environments has increased in
+recent years due to the desire of both scientists and governments to understand
+how anthropogenic noise affects marine fauna. The available technology is also 
+improving constantly, which allows new approaches and methods to be used in
+tackling the above requirement. This modern technology allows a platform to be
+developed which is capable of not only recording underwater acoustic signals but
+also processing them in real-time on board a device which is self-contained,
+battery powered and deployable to the sea floor. This opens up many
+possibilities, such as using data compression to enable high bandwidth signals
+(400kSamples/s) to be transmitted over narrow radio-frequency channels. It also
+allows automated signal analysis to be performed and results (from third-octave
+noise levels to an impact estimation) to be presented in a timely fashion to
+decision makers - allowing mitigation actions to be taken. As technological
+progress continues, ever more complex problems will be tackled by such devices
+without the need for on-shore computer processing. Results will be presented for
+the development of platform technologies to allow real-time broadband
+processing of impact relevant data and subsequent storage and communication.
