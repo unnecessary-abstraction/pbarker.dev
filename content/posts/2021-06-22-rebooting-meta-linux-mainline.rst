@@ -6,7 +6,7 @@ Rebooting meta-linux-mainline
 =============================
 
 :date: 2021-06-22
-:tags: yocto, embedded-linux, meta-linux-mainline
+:tags: yocto, embedded-linux, meta-linux-mainline, blog
 :summary: `meta-linux-mainline <https://github.com/unnecessary-abstraction/meta-linux-mainline>`_
           is a Yocto Project layer I created in May 2020 when I needed to test a
           few hardware boards with unpatched, upstream kernel sources. The

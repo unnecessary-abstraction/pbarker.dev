@@ -6,7 +6,7 @@ The Open Source AI Definition is not fit for purpose
 ====================================================
 
 :date: 2024-10-15
-:tags: open-source, ai
+:tags: open-source, ai, blog
 :summary:
     The `Open Source Initiative`_ have published a release candidate version of
     their `Open Source AI Definition`_ and I expect that a version 1.0 release

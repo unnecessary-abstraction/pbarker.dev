@@ -6,7 +6,7 @@ Syndication
 ===========
 
 :date: 2023-04-10
-:tags: open-culture, writing, indieweb
+:tags: open-culture, writing, indieweb, blog
 :summary:
     Inspired by `Cory Doctorow <https://pluralistic.net/>`_, I've been thinking
     about the IndieWeb idea of `POSSE <https://pluralistic.net/>`_ (Publish on

@@ -6,7 +6,7 @@ Rekeying
 ========
 
 :date: 2023-04-16
-:tags: pgp, ssh, home-network
+:tags: pgp, ssh, home-network, blog
 :summary:
    I've recently made a couple of changes to my development environments. As
    I've been configuring these environments, I've taken the opportunity to

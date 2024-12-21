@@ -6,7 +6,7 @@ Content Licensing
 =================
 
 :date: 2023-02-07
-:tags: open-source, open-culture, writing, photography
+:tags: open-source, open-culture, writing, photography, blog
 :summary: For my photography and writing I'm now using the
           `Creative Commons Attribution-NonCommercial 4.0 (CC-BY-NC 4.0)
           <https://creativecommons.org/licenses/by-nc/4.0/>`_ license. I'll

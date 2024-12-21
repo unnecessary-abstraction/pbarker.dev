@@ -6,7 +6,7 @@ A Change of Seasons
 ===================
 
 :date: 2023-11-19
-:tags: meta
+:tags: blog
 :summary:
     Well, I've been pretty quiet here the last couple of months....
 

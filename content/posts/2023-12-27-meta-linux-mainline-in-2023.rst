@@ -6,7 +6,7 @@ meta-linux-mainline in 2023
 ===========================
 
 :date: 2023-12-27
-:tags: yocto, embedded-linux, meta-linux-mainline
+:tags: yocto, embedded-linux, meta-linux-mainline, blog
 :summary:
    It's time for a year end review of `meta-linux-mainline
    <https://github.com/betafive/meta-linux-mainline>`__, a `Yocto Project

@@ -6,7 +6,7 @@ Thoughts on PyPI, PGP and Sigstore
 ==================================
 
 :date: 2023-05-24
-:tags: python, pgp
+:tags: python, pgp, blog
 :summary:
     A recent grumble about PGP signatures on PyPI has quickly led to PyPI
     dropping support for PGP. While I agree that there are major issues with

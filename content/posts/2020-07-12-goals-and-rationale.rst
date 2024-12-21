@@ -6,7 +6,7 @@ Goals and Rationale
 ===================
 
 :date: 2020-07-12
-:tags: meta
+:tags: meta, blog
 :summary: This website may evolve in other directions in the future but these
     are the initial goals: to act as a landing page and to allow me to keep a
     professional blog.

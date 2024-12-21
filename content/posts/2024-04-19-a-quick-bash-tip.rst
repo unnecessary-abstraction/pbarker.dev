@@ -6,7 +6,7 @@ A quick bash/zsh tip
 ====================
 
 :date: 2024-04-19
-:tags: linux, bash
+:tags: linux, bash, blog
 :summary:
     ``!`` is a valid character you can use in a bash/zsh alias. And as a bonus,
     it's not used in the name of any common commands!

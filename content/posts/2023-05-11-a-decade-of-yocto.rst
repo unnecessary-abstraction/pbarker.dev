@@ -6,7 +6,7 @@ A decade of contribution to OpenEmbedded & the Yocto Project
 ============================================================
 
 :date: 2023-05-11
-:tags: yocto, embedded-linux
+:tags: yocto, embedded-linux, blog
 :summary:
     I realised recently that I have now been involved in OpenEmbedded and the
     Yocto Project for over a decade! I thought I'd take the opportunity to look

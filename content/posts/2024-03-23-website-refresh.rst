@@ -6,7 +6,7 @@ Website Refresh
 ===============
 
 :date: 2024-03-23
-:tags: meta
+:tags: meta, blog
 :summary:
     Today I've deployed the new design for this website, built using `Pelican`_
     and `Tailwind CSS`_. After the changes I've made, I'm really pleased with

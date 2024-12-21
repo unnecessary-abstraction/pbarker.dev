@@ -6,7 +6,7 @@ A mental health update
 ======================
 
 :date: 2021-06-05
-:tags: meta
+:tags: meta, blog
 :summary: It's been a while since I posted here. I had high expectations of
           writing more and publishing regular YouTube videos. Then the "2nd
           wave" of COVID-19 in the UK happened...
