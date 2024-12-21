@@ -1,5 +1,5 @@
-Conference Talk: Embedded Linux License Compliance for Hackers & Makers
-=======================================================================
+Embedded Linux License Compliance for Hackers & Makers
+======================================================
 
 :date: 2021-02-07
 :tags: yocto, conference-talk

@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Paper: Detection and impact assessment of impulsive underwater noise
-===============================================================================
+Detection and impact assessment of impulsive underwater noise
+=============================================================
 
 :date: 2013-05-13
 :tags: underwater-acoustics, conference-talk

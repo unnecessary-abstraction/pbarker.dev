@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Using Rust with Yocto Project
-==============================================
+Using Rust with Yocto Project
+=============================
 
 :date: 2020-10-29
 :tags: yocto, conference-talk

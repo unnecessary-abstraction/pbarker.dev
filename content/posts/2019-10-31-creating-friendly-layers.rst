@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Creating Friendly Layers
-=========================================
+Creating Friendly Layers
+========================
 
 :date: 2019-10-31
 :tags: yocto, conference-talk

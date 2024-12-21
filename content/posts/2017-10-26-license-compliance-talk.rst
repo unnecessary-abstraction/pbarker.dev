@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: License Compliance and Auditing
-================================================
+License Compliance and Auditing
+===============================
 
 :date: 2017-10-26
 :tags: yocto, conference-talk

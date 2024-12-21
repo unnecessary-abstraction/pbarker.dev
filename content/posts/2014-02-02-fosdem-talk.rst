@@ -2,13 +2,13 @@
    Copyright (c) 2012 Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Underwater Acoustics to Opkg, via The Yocto Project
-====================================================================
+Underwater Acoustics to Opkg, via The Yocto Project
+===================================================
 
 :date: 2014-02-02
-:tags: necropost, conference-talk, embedded-linux, yocto-project, open-source
+:tags: conference-talk, embedded-linux, yocto-project, open-source
 :summary:
-    This was my first conference talk, presented at FOSDEM 2014.
+    This was my first talk at an open source conference!
 
 .. note::
     As this talk was delivered at FOSDEM 2014, the abstract and video are licensed under the

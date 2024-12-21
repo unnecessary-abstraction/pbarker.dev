@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Yocto Project lore: New mailing list tools
-===========================================================
+Yocto Project lore: New mailing list tools
+==========================================
 
 :date: 2021-12-01
 :tags: yocto, conference-talk

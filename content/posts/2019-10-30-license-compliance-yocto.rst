@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: License Compliance in Embedded Linux with the Yocto Project
-============================================================================
+License Compliance in Embedded Linux with the Yocto Project
+===========================================================
 
 :date: 2019-10-30
 :tags: yocto, conference-talk

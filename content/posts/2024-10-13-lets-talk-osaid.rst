@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Let's talk about the Open Source AI Definition
-===============================================================
+Let's talk about the Open Source AI Definition
+==============================================
 
 :date: 2024-10-13
 :tags: open-source, ai, conference-talk

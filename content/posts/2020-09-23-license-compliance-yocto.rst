@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Open Source License Compliance with Yocto Project
-==================================================================
+Open Source License Compliance with Yocto Project
+=================================================
 
 :date: 2020-09-23
 :tags: yocto, conference-talk

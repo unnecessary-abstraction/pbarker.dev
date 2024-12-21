@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: System Containers: What, Why, How?
-===================================================
+System Containers: What, Why, How?
+==================================
 
 :date: 2024-10-12
 :tags: conference-talk

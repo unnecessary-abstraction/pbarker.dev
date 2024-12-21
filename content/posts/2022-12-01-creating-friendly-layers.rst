@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Creating Friendly Layers, 2022 Edition
-=======================================================
+Creating Friendly Layers, 2022 Edition
+======================================
 
 :date: 2022-12-01
 :tags: yocto, conference-talk

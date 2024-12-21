@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: An Overview of the Hash Equivalence & PR Services
-==================================================================
+An Overview of the Hash Equivalence & PR Services
+=================================================
 
 :date: 2021-12-01
 :tags: yocto, conference-talk

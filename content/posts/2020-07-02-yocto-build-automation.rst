@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Highly Scalable Yocto Project Build Automation
-===============================================================
+Highly Scalable Yocto Project Build Automation
+==============================================
 
 :date: 2020-07-02
 :tags: yocto, conference-talk

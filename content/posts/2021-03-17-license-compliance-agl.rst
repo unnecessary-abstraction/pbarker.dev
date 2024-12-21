@@ -1,5 +1,5 @@
-Conference Talk: Open Source License Compliance with AGL
-========================================================
+Open Source License Compliance with AGL
+=======================================
 
 :date: 2021-03-17
 :tags: yocto, conference-talk

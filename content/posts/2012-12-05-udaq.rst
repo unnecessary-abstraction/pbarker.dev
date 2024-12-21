@@ -2,25 +2,25 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Paper: Development of a versatile platform for long-term underwater acoustic monitoring
-==================================================================================================
+Development of a versatile platform for long-term underwater acoustic monitoring
+================================================================================
 
-:date: 2012-07-02
+:date: 2012-12-05
 :tags: underwater-acoustics, conference-talk
 :summary:
     As part of my academic research, I published a conference paper and gave a
     talk on the development of the UDAQ system for long-term underwater acoustic
-    monitoring at the European Conference on Underwater Acoustics (ECUA) 2012 in
-    Edinburgh, Scotland.
+    monitoring at the European Conference on Underwater Acoustics (ECUA) in July
+    2012 in Edinburgh, Scotland.
 
 As part of my academic research, I published a conference paper and gave a talk
 on the development of the UDAQ system for long-term underwater acoustic
 monitoring at the European Conference on Underwater Acoustics (ECUA) 2012 in
 Edinburgh, Scotland.
 
-The `conference paper`_ is available from Research Gate.
+The `conference paper`_ is available from the Acoustical Society of America.
 
-.. _conference paper: https://www.researchgate.net/publication/288723813_Development_of_a_versatile_platform_for_long-term_underwater_acoustic_monitoring
+.. _conference paper: https://pubs.aip.org/asa/poma/article/17/1/070037/981881/Development-of-a-versatile-platform-for-long-term
 
 Abstract
 --------

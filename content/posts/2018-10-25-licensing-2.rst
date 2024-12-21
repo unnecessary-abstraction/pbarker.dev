@@ -2,8 +2,8 @@
    Copyright Paul Barker <paul@pbarker.dev>
    SPDX-License-Identifier: CC-BY-NC-4.0
 
-Conference Talk: Licensing 2.0
-==============================
+Licensing 2.0
+=============
 
 :date: 2018-10-25
 :tags: yocto, conference-talk
