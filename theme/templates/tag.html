@@ -6,7 +6,7 @@ SPDX-License-Identifier: Apache-2.0
 {% block title %}{{ SITENAME }} - Posts tagged {{ tag }}{% endblock %}
 
 {% block content %}
-<article class="prose prose-slate dark:prose-invert max-w-3xl mx-auto">
+<article class="prose prose-slate dark:prose-invert max-w-5xl mx-auto">
   <div>
     <h1 class="mb-1 text-center">Posts tagged {{ tag }}</h1>
   </div>
@@ -15,8 +15,12 @@ SPDX-License-Identifier: Apache-2.0
       <tbody>
       {% for article in dates %}
         <tr>
-          <td class="p-1">{{ article.date.strftime("%Y-%m-%d") }}</td>
-          <td class="p-1"><a href='/{{ article.url }}'>{{ article.title }}</a></td>
+        <td class="p-1 whitespace-nowrap text-lg">{{ article.date.strftime("%Y-%m-%d") }}</td>
+        <td class="p-1">
+          <a class="text-lg" href="/{{ article.url }}">{{ article.title }}</a><br />
+          {% set comma = joiner(', ') %}
+          <span class="text-xs">Other tags: {% for othertag in article.tags | sort | reject("eq", tag) %}{{ comma() }}<a href="/{{ othertag.url }}">{{ othertag }}</a>{% endfor %}</span>
+        </td>
         </tr>
       {% endfor %}
       </tbody>

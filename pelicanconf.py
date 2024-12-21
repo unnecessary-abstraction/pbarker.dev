@@ -39,7 +39,6 @@ TAGS_SAVE_AS = 'tags/index.html'
 MENUITEMS = (
     ('Tags', '/tags/'),
     ('Archives', '/archives/'),
-    ('Newsletter', 'https://buttondown.email/pbarker')
 )
 
 DEFAULT_PAGINATION = 10

@@ -15,12 +15,14 @@ SPDX-License-Identifier: Apache-2.0
       <tbody>
         {% for tag,articles in tags|sort_by_article_count %}
           <tr>
-            <td class="p-1" width="80%">
-              <a href='/tags/{{ tag.slug }}/index.html'>{{ tag }}</a>
-              [{{ articles|count }}]
+            <td class="p-1">
+              <a class="text-lg" href='/tags/{{ tag.slug }}/index.html'>{{ tag }}</a><br />
+              <span class="text-xs">{{ articles|count }} item(s)</span>
             </td>
-            <td class="p-1"><a href='/tags/{{ tag.slug }}/feed.rss'>RSS</a></td>
-            <td class="p-1"><a href='/tags/{{ tag.slug }}/feed.atom'>ATOM</a></td>
+            <td class="p-1 text-lg text-right">
+              <span class="pl-4"><a href="feed.rss">RSS</a></span>
+              <span class="pl-4"><a href="feed.atom">ATOM</a></span>
+            </td>
           </tr>
         {% endfor %}
       </tbody>

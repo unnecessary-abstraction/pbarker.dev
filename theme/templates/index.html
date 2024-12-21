@@ -21,8 +21,8 @@ SPDX-License-Identifier: Apache-2.0
   <div class="max-w-sm mx-auto">
     <img class="rounded my-0 mx-auto" width="70%" src="https://img.pbarker.dev/misc/pbarker.jpg">
   </div>
-  <p class="text-center">Professional Software Engineer, Embedded Linux expert & Open Source enthusiast.</p>
-  <p class="text-center">Amateur wildlife photographer, rambler and craft beer/whisky appreciator.</p>
+  <p class="text-lg text-center">Professional Software Engineer, Embedded Linux expert & Open Source enthusiast.</p>
+  <p class="text-lg text-center">Amateur wildlife photographer, rambler and craft beer/whisky appreciator.</p>
   <p class="text-center mt-2">
     <span class="mx-2">
       <a rel="me" href="https://social.afront.org/@pbarker" title="Mastodon"><img class="inline" src="/svg/E05A.svg" width="72" /></a>
@@ -62,7 +62,7 @@ SPDX-License-Identifier: Apache-2.0
         <p class="text-xs italic my-0">
           Published: <time datetime="{{ article.date.isoformat() }}">{{ article.date | strftime('%Y-%m-%d') }}</time><br>
           {% set comma = joiner(', ') %}
-          Tags: {% for tag in article.tags %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}
+          Tags: {% for tag in article.tags | sort %}{{ comma() }}<a href="/{{ tag.url }}">{{ tag }}</a>{% endfor %}
         </p>
       </div>
     </div>
