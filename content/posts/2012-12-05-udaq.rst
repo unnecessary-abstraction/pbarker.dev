@@ -27,7 +27,7 @@ Abstract
 
 The requirement for acoustic monitoring of marine environments has increased in
 recent years due to the desire of both scientists and governments to understand
-how anthropogenic noise affects marine fauna. The available technology is also 
+how anthropogenic noise affects marine fauna. The available technology is also
 improving constantly, which allows new approaches and methods to be used in
 tackling the above requirement. This modern technology allows a platform to be
 developed which is capable of not only recording underwater acoustic signals but
