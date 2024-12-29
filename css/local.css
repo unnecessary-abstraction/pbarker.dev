@@ -15,8 +15,16 @@
 }
 
 .figure img {
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
+    margin: 0;
+}
+
+.figure picture {
+    margin: 0;
+}
+
+.figure .download-links {
+    margin: 0;
+    max-width: none;
 }
 
 .admonition {
