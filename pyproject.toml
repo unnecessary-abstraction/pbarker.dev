@@ -9,6 +9,7 @@ python = "^3.11"
 pelican = "^4.9.1"
 pelican-neighbors = "^1.2.0"
 pelican-youtube = "^0.2.1"
+python-ulid = "^3.0.0"
 
 
 [build-system]
