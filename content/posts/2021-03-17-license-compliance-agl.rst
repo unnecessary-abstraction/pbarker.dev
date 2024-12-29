@@ -1,3 +1,7 @@
+..
+   Copyright Paul Barker <paul@pbarker.dev>
+   SPDX-License-Identifier: CC-BY-NC-4.0
+
 Open Source License Compliance with AGL
 =======================================
 
