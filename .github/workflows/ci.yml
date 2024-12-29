@@ -46,6 +46,7 @@ jobs:
 
       - name: Build website with Pelican & TailwindCSS
         run: |
+          poetry run python3 photography/preprocess.py
           poetry run pelican
           tailwindcss -i css/main.scss -o public/css/main.css
 
