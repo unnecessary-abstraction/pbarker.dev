@@ -1,7 +1,9 @@
 # Copyright (c) 2020 Paul Barker <paul@pbarker.dev>
 # SPDX-License-Identifier: CC0-1.0
 
+/.photo_url*
 /public
 __pycache__
 /content/drafts
+/content/photography
 /content/css/main.css
